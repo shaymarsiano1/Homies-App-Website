@@ -1,0 +1,60 @@
+.icons_nav_bar{
+    text-align: center;
+    font-size: 50;
+}
+
+.icon_in_nav_bar{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-pills{
+    display:flex;
+    gap:20px;
+}
+
+
+
+
+
+/* carousel styles */
+/* Carousel Container */
+#example_apartment_carousel {
+    width: 50%; /* Adjust the carousel width */
+    height: 500px; /* Set a fixed height for the carousel */
+    margin: auto; /* Center the carousel horizontally */
+    overflow: hidden; /* Ensures no overflow issues */
+}
+
+/* Carousel Items */
+.example_apartment_Carousel_item {
+    height: 100%; /* Match parent container height */
+    width: 100%; /* Match parent container width */
+}
+
+/* Images in Carousel */
+.example_apartment_Carousel_item img {
+    width: 100%; /* Make images span full width */
+    height: 100%; /* Match the height of the carousel */
+    object-fit: cover; /* Ensures images don't stretch and maintain aspect ratio */
+}
+
+/* Optional: Adjust carousel indicators */
+.carousel-indicators button {
+    background-color: #fff; /* White dots */
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #007bff; /* Blue for active indicator */
+}
+
+/* Optional: Adjust control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Make icons visible on dark backgrounds */
+}
+
